@@ -1,0 +1,89 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "CDST.Files.Application": {
+      "path": "src/CDST.Files.Application/CDST.Files.Application.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.Application.Tests": {
+      "path": "test/CDST.Files.Application.Tests/CDST.Files.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "CDST.Files.Domain.Shared": {
+      "path": "src/CDST.Files.Domain.Shared/CDST.Files.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.Application.Contracts": {
+      "path": "src/CDST.Files.Application.Contracts/CDST.Files.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.HttpApi": {
+      "path": "src/CDST.Files.HttpApi/CDST.Files.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.HttpApi.Client": {
+      "path": "src/CDST.Files.HttpApi.Client/CDST.Files.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.Web": {
+      "path": "src/CDST.Files.Web/CDST.Files.Web.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.Web.Tests": {
+      "path": "test/CDST.Files.Web.Tests/CDST.Files.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "CDST.Files.EntityFrameworkCore.Tests": {
+      "path": "test/CDST.Files.EntityFrameworkCore.Tests/CDST.Files.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "CDST.Files.EntityFrameworkCore": {
+      "path": "src/CDST.Files.EntityFrameworkCore/CDST.Files.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.TestBase": {
+      "path": "test/CDST.Files.TestBase/CDST.Files.TestBase.abppkg",
+      "folder": "test"
+    },
+    "CDST.Files.Domain.Tests": {
+      "path": "test/CDST.Files.Domain.Tests/CDST.Files.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "CDST.Files.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/CDST.Files.HttpApi.Client.ConsoleTestApp/CDST.Files.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "CDST.Files.DbMigrator": {
+      "path": "src/CDST.Files.DbMigrator/CDST.Files.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "CDST.Files.Domain": {
+      "path": "src/CDST.Files.Domain/CDST.Files.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

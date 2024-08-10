@@ -1,0 +1,10 @@
+﻿{
+  "applications": {
+    "CDST.Files.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44384",
+      "path": "../../../src/CDST.Files.Web/CDST.Files.Web.csproj",
+      "kubernetesService": ".*-web$"
+    }
+  }
+}
